@@ -3,7 +3,7 @@ import { useState } from "react";
 import QRCode from "react-qr-code";
 
 function App() {
-  const [text, setText] = useState("www.linkedin.com/in/nishchal5");
+  const [text, setText] = useState("");
   const textChangeHanlder = (event) => {
     setText(event.target.value);
   };
